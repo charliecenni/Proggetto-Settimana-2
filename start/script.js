@@ -15,13 +15,114 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const products =[
+   {
+      name: 'Iphone17',
+      category: 'phone',
+      price: '1200€',
+      rating: '4',
+      img:'img.jpg',
+      available: 'true',
+   },
+   {
+      name: 'Toyphone',
+      category: 'phone',
+      price: '100€',
+      rating: '3',
+      img:'img.jpg',
+      available: 'false',
+   },
+   {
+      name: 'Star wars',
+      category: 'movie',
+      price: '19.90€',
+      rating: '5',
+      img:'img.jpg',
+      available: 'true',
+   },
+   {
+      name: 'Winnie The Pooh',
+      category: 'movie',
+      price: '19.90€',
+      rating: '5',
+      img:'img.jpg',
+      available: 'true',
+   },
+   {
+      name: 'Shirt',
+      category: 'clothes',
+      price: '12€',
+      rating: '2',
+      img:'img.jpg',
+      available: 'false',
+   },
+   {
+      name: 'Boots',
+      category: 'clothes',
+      price: '75€',
+      rating: '2',
+      img:'img.jpg',
+      available: 'true',
+   },
+   {
+      name: 'Huaweii19',
+      category: 'phone',
+      price: '900€',
+      rating: '4',
+      img:'img.jpg',
+      available: 'true',
+   },
+   {
+      name: 'Red Dead Redemption 2',
+      category: 'games',
+      price: '49.90€',
+      rating: '5',
+      img:'img.jpg',
+      available: 'false',
+   },
+   {
+      name: 'GTA6',
+      category: 'games',
+      price: '89.90€',
+      rating: '5',
+      img:'img.jpg',
+      available: 'false',
+   },
+   {
+      name: 'Pants',
+      category: 'clothes',
+      price: '15€',
+      rating: '1',
+      img:'img.jpg',
+      available: 'true',
+   },
+   {
+      name: 'Hollow Night',
+      category: 'games',
+      price: '19.90€',
+      rating: '3',
+      img:'img.jpg',
+      available: 'false',
+   },
+   {
+      name: 'Oppo200',
+      category: 'phone',
+      price: '750€',
+      rating: '4',
+      img:'img.jpg',
+      available: 'true',
+   }
 
+]
 
 /* VERSIONE INTERMEDIA — formattaPrezzo(prezzo)
    Funzione che ritorna una stringa tipo "€ 19,99".
    Esempio in console.log: Monitor: € 150,00
 */
+function formattaPrezzo(price){
 
+}
+console.log(`${products.lenght.name}`)
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 
