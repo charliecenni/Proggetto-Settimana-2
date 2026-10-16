@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Homepage — Week Project</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=star" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <!-- Logo, barra di ricerca, link Account / Ordini / Carrello -->
+    <p>Amazon</p>
+    <input type="search" id="amazon-search" name="cerca" placeholder="Cerca prodotti,categorie,brand..." />
+    <button id="search">Cerca</button>
+    <a href="javascript:void(0)">Account</a>
+    <a href="javascript:void(0)">Ordini</a>
+    <button id="cart"><a href="javascript:void(0)">Carrello(0)</a></button>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <!-- Titolo grande, sottotitolo -->
+      <h1>Le offerte di oggi</h1>
+      <p>Sconti fino al 70% su elettronica, libri, casa e molto altro</p>
+    </section><br>
+
+    <section class="categorie">
+      <!-- 4 card categoria -->
+      <p>Categorie</p><br>
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <div>
+                <h3 id="elettronica">Elettronica</h3>
+                <p>Elettronica</p>
+                <a href="javascript:void(0)">Scopri di più</a>
+              </div>
+            </td>
+            <td>
+              <div>
+                <h3 id="libri">Libri</h3>
+                <p>Libri</p>
+                <a href="javascript:void(0)">Scopri di più</a>
+              </div>
+            </td>
+            <td>
+              <div>
+                <h3 id="abbigliamento">Abbigliamento</h3>
+                <p>Abbigliamento</p>
+                <a href="javascript:void(0)">Scopri di più</a>
+              </div>
+            </td>
+            <td>
+              <div>
+                <h3 id="casa">Casa</h3>
+                <p>Casa</p>
+                <a href="javascript:void(0)">Scopri di più</a>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section ><br>
+    
+    <section class="prodotti">
+      <p>I più venduti</p><br>
+      <!-- Griglia prodotti (Versione Base: HTML statico; Intermedia/Avanzata: generata da JS) -->
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <div class="card">
+                <div class="img">
+                  <h4>Cuffie</h4>
+                </div>
+                <p>Cuffie wireless con cancellazione del rumore</p>
+                <p class="blue"><span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>(4,2)</p>
+                <strong>€ 89,99</strong>
+                <button>Aggiungi al carrello</button>
+              </div>
+
+            </td>
+            <td>
+              <div class="card">
+                <div class="img">
+                  <h4>Tablet</h4>
+                </div>
+                <p>Tablet 10 pollici 64GB</p>
+                <p class="blue"><span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined">star</span>(4,2)</p>
+                <strong>€ 199,00</strong>
+                <button>Aggiungi al carrello</button>
+              </div>
+
+            </td>
+            <td>
+              <div class="card">
+                <div class="img">
+                  <h4>Libro</h4>
+                </div>
+                <p>Il romanzo dell'anno</p>
+                <p class="blue"><span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>(4,2)</p>
+                <strong>€ 14,90</strong>
+                <button>Aggiungi al carrello</button>
+              </div>
+
+            </td>
+            <td>
+              <div class="card">
+                <div class="img">
+                  <h4>Zaino</h4>
+                </div>
+                <p>Zaino da viaggio 30L impermeabile</p>
+                <p class="blue"><span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined">star</span>(4,2)</p>
+                <strong>€ 49,99</strong>
+                <button>Aggiungi al carrello</button>
+              </div>
+
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="card">
+                <div class="img">
+                  <h4>Lampada</h4>
+                </div>
+                <p>Lampada LED da scrivania<br>orientabile</p>
+                <p class="blue"><span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined">star</span>(4,2)</p>
+                <strong>€ 29,50</strong>
+                <button>Aggiungi al carrello</button>
+              </div>
+
+            </td>
+            <td>
+              <div class="card">
+                <div class="img">
+                  <h4>Smartwatch</h4>
+                </div>
+                <p>Smartwatch fitness con GPS</p>
+                <p class="blue"><span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined">star</span>
+                  <span class="material-symbols-outlined">star</span>(4,2)</p>
+                <strong>€ 119,00</strong>
+                <button>Aggiungi al carrello</button>
+              </div>
+
+            </td>
+            <td>
+              <div class="card">
+                <div class="img">
+                  <h4>Mouse</h4>
+                </div>
+                <p>Mouse ergonomico wireless</p>
+                <p class="blue"><span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined">star</span>(4,2)</p>
+                <strong>€ 24,90</strong>
+                <button>Aggiungi al carrello</button>
+              </div>
+
+            </td>
+            <td>
+              <div class="card">
+                <div class="img">
+                  <h4>Caffettiera</h4>
+                </div>
+                <p>Caffettiera moka 6 tazze</p>
+                <p class="blue"><span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>
+                  <span class="material-symbols-outlined full">star</span>(4,2)</p>
+                <strong>€ 22,00</strong>
+                <button>Aggiungi al carrello</button>
+              </div>
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <footer>
+    <!-- 3 colonne di link -->
+    <table>
+      <thead>
+        <tr>
+          <th>Chi Siamo</th>
+          <th> Aiuto</th>
+          <th>Connettiti</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="javascript:void(0)">Lavora con noi</a></td>
+          <td><a href="javascript:void(0)">Investitori</a></td>
+          <td><a href="javascript:void(0)">Sostenibilità</a></td>
+        </tr>
+        <tr>
+          <td><a href="javascript:void(0)">Centro Assistenza</a></td>
+          <td><a href="javascript:void(0)">Spedizioni</a></td>
+          <td><a href="javascript:void(0)">Resi e rimborsi</a></td>
+        </tr>
+        <tr>
+          <td><a href="javascript:void(0)">Facebook</a></td>
+          <td><a href="javascript:void(0)">Instagram</a></td>
+          <td><a href="javascript:void(0)">Youtube</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
